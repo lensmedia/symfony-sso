@@ -1,0 +1,16 @@
+{
+    "name": "lensmedia/symfony-sso",
+    "description": "SSO linking with some defaults between various of our websites",
+    "type": "symfony-bundle",
+    "require": {
+        "symfony/framework-bundle": "*",
+        "firebase/php-jwt": "*",
+        "symfony/security-bundle": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lens\\Bundle\\LensSsoBundle\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
