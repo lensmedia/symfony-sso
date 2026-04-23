@@ -18,6 +18,10 @@ class LensSsoBundle extends AbstractBundle
             'base_url' => 'https://itheorie.nl',
             'public_key_path' => __DIR__.'/../config/certificates/sso_public_itheorie.pem',
         ],
+        'examencentrum' => [
+            'base_url' => 'https://examencentrum.nl',
+            'public_key_path' => __DIR__.'/../config/certificates/sso_public_examencentrum.pem',
+        ],
     ];
 
     public function configure(DefinitionConfigurator $definition): void
